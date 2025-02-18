@@ -1,0 +1,93 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-base: rgb(255, 255, 255);
+    -fx-background-color: rgb(240, 240, 240);  /* Milky white background */
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #1c1c1c, #212121, #272727, #2c2c2c, #323232);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 12 30 12 30;
+    -fx-border-radius: 20px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-size: 20px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #a1a1a1, #b4b4b4, #c7c7c7, #dadada, #eeeeee);
+    -fx-text-fill: #202020;
+}
+
+.label {
+    -fx-font-size: 25px;
+    -fx-text-fill: #202020; /* Dark gray for readability */
+}
+
+.vbox {
+    -fx-background-color: #f0f0f0; /* Consistent milky white background across vertical boxes */
+}
+
+.hbox {
+    -fx-spacing: 10;
+    -fx-background-color: #f0f0f0;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: #f0f0f0;
+}
+
+.kanban-column {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.sidebar {
+    -fx-background-color: #ececec;
+    -fx-padding: 10px;
+}
+
+.sidebar Button {
+    -fx-min-width: 150px;
+    -fx-min-height: 40px;
+}
+
+.project-item {
+    -fx-alignment: center-left;
+    -fx-spacing: 5;
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-radius: 20px;
+    -fx-border-color: #cccccc;
+    -fx-background-color: linear-gradient(to bottom, #3f3f3f, #444444, #4a4a4a, #4f4f4f, #555555);
+}
+
+.project-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 5 0;
+    -fx-text-fill: white;
+}
+
+.project-item:hover {
+    -fx-background-color:  linear-gradient(to bottom, #a1a1a1, #b4b4b4, #c7c7c7, #dadada, #eeeeee);
+    -fx-text-fill: #202020;
+}
+
+.project-item:hover .project-title {
+    -fx-text-fill: black; /* Ensures text in project-title also turns black */
+}
+
+.checkbox {
+    -fx-padding: 5 0;
+}
+
+

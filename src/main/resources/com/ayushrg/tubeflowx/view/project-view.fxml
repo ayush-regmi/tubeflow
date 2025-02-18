@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0"
+            prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.ayushrg.tubeflowx.controller.ProjectListController">
+    <children>
+        <Label layoutX="259.0" layoutY="28.0" text="Projects" textAlignment="CENTER">
+            <font>
+                <Font size="22.0"/>
+            </font>
+        </Label>
+        <TableView fx:id="projectTable" layoutX="11.0" layoutY="83.0" prefHeight="637.0" prefWidth="777.0">
+            <columns>
+
+                <TableColumn fx:id="statusColumn" prefWidth="173.38239288330078" text="Status"/>
+                <TableColumn fx:id="titleColumn" prefWidth="527.6176147460938" text="Title"/>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

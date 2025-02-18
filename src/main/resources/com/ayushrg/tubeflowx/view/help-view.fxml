@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import javafx.geometry.Insets?>
+
+<VBox fx:id="mainBox" spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Text text="TubeFlow Help Guide" style="-fx-font-size: 20px;" />
+        <TabPane tabClosingPolicy="UNAVAILABLE" prefHeight="400.0" prefWidth="600.0">
+            <tabs>
+                <Tab text="About">
+                    <content>
+                        <VBox spacing="5">
+                            <padding>
+                                <Insets top="10" right="10" bottom="10" left="10"/>
+                            </padding>
+                            <children>
+                                <Text text="YouTube Content Management System (YT-CMS)" />
+                                <Text text="This application helps content creators manage their YouTube video projects." />
+                                <Text text="Features include project management, Kanban board for tracking progress, and handling of content metadata." />
+                                <Text text="Declaimer: This is only the backend part, Frontend feature is still to be developed" />
+                            </children>
+                        </VBox>
+                    </content>
+                </Tab>
+                <Tab text="Usage">
+                    <content>
+                        <VBox spacing="5">
+                            <padding>
+                                <Insets top="10" right="10" bottom="10" left="10"/>
+                            </padding>
+                            <children>
+                                <Text text="How to Use YT-CMS" />
+                                <Text text="1. Create a Project: Manage your YouTube video by adding it to the system." />
+                                <Text text="2. Update a Project: Modify details of your existing projects." />
+                                <Text text="3. Move Projects on Kanban: Shift projects between To Do, In Progress, and Done statuses." />
+                                <Text text="4. Display Kanban Board: Visualize the progress of all projects on the Kanban board." />
+                                <Text text="5. Save Projects: Ensure all your project changes are saved to disk." />
+                            </children>
+                        </VBox>
+                    </content>
+                </Tab>
+                <Tab text="Troubleshooting">
+                    <content>
+                        <VBox spacing="5">
+                            <padding>
+                                <Insets top="10" right="10" bottom="10" left="10"/>
+                            </padding>
+                            <children>
+                                <Text text="Troubleshooting Common Issues" />
+                                <Text text="Ensure that all project fields are correctly filled out before saving." />
+                                <Text text="Check the console output for error messages if operations fail." />
+                                <Text text="Make sure the 'Projects.json' file is accessible and not corrupt." />
+                                <Text text="Contact support if you encounter persistent issues." />
+                            </children>
+                        </VBox>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</VBox>

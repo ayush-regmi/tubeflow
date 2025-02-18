@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2e4cc0c-1b87-42d5-9a06-710250edff96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/MPA-Part3-ChkLst-Regmi-Ayush.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx/controller/NewProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx/controller/ProjectDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx/controller/ProjectListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx/data/Projects.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx/model/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx/model/KanbanBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/homeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/newProject.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/projectDetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/projectList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/view/help-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/view/home-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/view/new-project-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/view/project-detail-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/view/project-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fK79MUWKWWm7pmMFuE0DK9CWFr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TubeFlowApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx/view" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx/view" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/ayushrg/tubeflowx" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/ayushrg/tubeflowx" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ayushrg.tubeflowx.view" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TubeFlowX" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TubeFlowX" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2e4cc0c-1b87-42d5-9a06-710250edff96" name="Changes" comment="" />
+      <created>1713537762512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713537762512</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

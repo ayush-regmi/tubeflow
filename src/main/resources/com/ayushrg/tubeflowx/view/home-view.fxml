@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ayushrg.tubeflowx.controller.HomeController">
+    <top>
+        <HBox alignment="CENTER" maxWidth="-Infinity" prefHeight="106.0" prefWidth="1241.0" BorderPane.alignment="BOTTOM_CENTER">
+            <children>
+                <Button fx:id="newProjectBtn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#createNewProject" prefHeight="59.0" prefWidth="300.0" text="+ New Project" textAlignment="CENTER">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="1060.0" BorderPane.alignment="CENTER">
+            <VBox prefHeight="618.0" prefWidth="1062.0">
+                <HBox prefHeight="80.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="269.0" text="To Do" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="79.0" prefWidth="290.0" text="In Progress" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="79.0" prefWidth="313.0" text="Done" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
+            <HBox prefHeight="491.0" prefWidth="872.0">
+                <ScrollPane fx:id="ToDoScroll" fitToWidth="true" prefHeight="491.0" prefWidth="353.0">
+                    <content>
+                        <VBox fx:id="ToDoVBox" alignment="TOP_CENTER" layoutX="24.0" layoutY="8.0" prefHeight="491.0" prefWidth="358.0" spacing="5" styleClass="kanban-column">
+                            <children>
+                                <Label fx:id="ToDo" text="To Do">
+                           <VBox.margin>
+                              <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font size="22.0" />
+                           </font></Label>
+                            </children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+                <ScrollPane fx:id="InProgressScroll" fitToWidth="true" prefHeight="491.0" prefWidth="364.0">
+                    <content>
+                        <VBox fx:id="InProgressVBox" alignment="TOP_CENTER" layoutX="293.0" layoutY="16.0" prefHeight="491.0" prefWidth="353.0" spacing="5" styleClass="kanban-column">
+                            <children>
+                                <Label fx:id="InProgress" text="In Progress">
+                           <font>
+                              <Font size="22.0" />
+                           </font></Label>
+                            </children>
+                     <padding>
+                        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                     </padding>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+                <ScrollPane fx:id="DoneScroll" fitToWidth="true" prefHeight="491.0" prefWidth="346.0">
+                    <content>
+                        <VBox fx:id="DoneVBox" alignment="TOP_CENTER" layoutX="590.0" layoutY="9.0" prefHeight="491.0" prefWidth="309.0" spacing="5" styleClass="kanban-column">
+                            <children>
+                                <Label fx:id="Done" text="Done">
+                           <font>
+                              <Font size="22.0" />
+                           </font></Label>
+                            </children>
+                     <padding>
+                        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                     </padding>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+            </HBox>
+            </VBox>
+        </AnchorPane>
+    </center>
+    <left>
+        <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="181.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="homeBtn" mnemonicParsing="false" onAction="#home" prefHeight="67.0" prefWidth="147.0" text="Home" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets bottom="30.0" top="20.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="projectBtn" mnemonicParsing="false" onAction="#openProjectList" prefHeight="67.0" prefWidth="147.0" text="Projects" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets bottom="30.0" top="20.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="helpBtn" alignment="CENTER" onAction="#help" mnemonicParsing="false" prefHeight="74.0" prefWidth="147.0" text="Help" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets bottom="30.0" top="20.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Button>
+            </children>
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+        </VBox>
+    </left>
+</BorderPane>

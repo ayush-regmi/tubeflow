@@ -1,0 +1,54 @@
+/* Base styling for the VBox layout */
+.vbox {
+    -fx-spacing: 10;
+    -fx-padding: 20;
+    -fx-background-color: #f0f0f0; /* Milky white background */
+    -fx-alignment: center;
+}
+
+/* Styling for labels */
+.label {
+    -fx-text-fill: #303030; /* Dark text for better readability */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Styling for text fields and text areas */
+.text-field, .text-area {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+    -fx-prompt-text-fill: #a0a0a0; /* Light gray for placeholder text */
+}
+
+/* Styling for the combo box */
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+}
+
+/* Styling for buttons, using gradients for a modern look */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #1c1c1c, #212121, #272727, #2c2c2c, #323232);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 10 20 10 20;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 3,0,0,1 );
+}
+
+.button:hover {
+    -fx-background-color:  linear-gradient(to bottom, #a1a1a1, #b4b4b4, #c7c7c7, #dadada, #eeeeee);
+}
+
+/* Additional styling for HBox containing buttons */
+.hbox {
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}

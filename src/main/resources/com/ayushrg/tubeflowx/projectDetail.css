@@ -1,0 +1,40 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #f0f0f0;
+}
+
+.header-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #303030;
+}
+
+.form {
+    -fx-padding: 20;
+}
+
+.form-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #303030;
+}
+
+.text-field, .text-area {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+}
+
+.button {
+    -fx-background-color: linear-gradient(#4d4d4d, #1a1a1a);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#686868, #2b2b2b);
+}

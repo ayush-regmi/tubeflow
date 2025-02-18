@@ -1,0 +1,66 @@
+/* Root style settings for uniform font and background */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-base: rgb(255, 255, 255);
+    -fx-background-color: rgb(240, 240, 240); /* Consistent milky white background */
+}
+
+/* Styling for all Text elements to maintain consistency across views */
+.text {
+    -fx-font-size: 16px;
+    -fx-fill: #333; /* Dark gray for readability */
+}
+
+/* Styling specific for the main title in the Help view */
+#mainBox Text {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* General styling for Tabs to match other interface elements */
+.tab-pane {
+    -fx-font-size: 16px;
+    -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+.tab {
+    -fx-background-color: #ececec; /* Lighter gray for tabs for a subtle distinction */
+    -fx-padding: 10px;
+}
+
+.tab:selected {
+    -fx-background-color: #ddd; /* Slightly darker on selection for better visibility */
+    -fx-font-weight: bold;
+}
+
+/* VBox styling within Tabs for uniform appearance */
+.vbox {
+    -fx-background-color: #f0f0f0; /* Matching the root background */
+    -fx-spacing: 10; /* Consistent spacing for a cleaner layout */
+}
+
+/* Custom Insets for padding in each VBox inside tabs */
+.vbox > .padding {
+    -fx-padding: 10; /* Consistent padding inside each tab content */
+}
+
+/* Styling for hover effects on buttons if used within the help section */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #1c1c1c, #212121, #272727, #2c2c2c, #323232);
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4,0,0,1);
+    -fx-padding: 12 30 12 30;
+    -fx-font-size: 16px;
+    -fx-border-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #a1a1a1, #b4b4b4, #c7c7c7, #dadada, #eeeeee);
+    -fx-text-fill: #202020;
+}
+
+/* Styling ScrollPane if used to make it consistent with other views */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: #f0f0f0;
+}
